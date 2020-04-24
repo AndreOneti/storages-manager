@@ -1,0 +1,29 @@
+{
+  "name": "storages-manager",
+  "version": "0.0.1",
+  "description": "Manage cookies, localStorage and sessionStorage",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jestconfig.json --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreOneti/storages-manager.git"
+  },
+  "keywords": [
+    "cookies",
+    "sessionStorage",
+    "localStorage"
+  ],
+  "author": "AndreOneti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreOneti/storages-manager/issues"
+  },
+  "homepage": "https://github.com/AndreOneti/storages-manager#readme",
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "typescript": "^3.8.3"
+  }
+}
