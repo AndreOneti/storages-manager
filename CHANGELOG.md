@@ -1,9 +1,14 @@
 0.0.1 / 2020-04-24
 ==================
 
+  * Initial release
+
+0.0.1 / 2020-04-24
+==================
+
   * Add Cookie manager
 
 0.0.1 / 2020-04-24
 ==================
 
-  * Initial release
+  * Initial commit
