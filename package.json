@@ -1,6 +1,6 @@
 {
   "name": "storages-manager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Manage cookies, localStorage and sessionStorage",
   "main": "dist/index.js",
   "scripts": {
