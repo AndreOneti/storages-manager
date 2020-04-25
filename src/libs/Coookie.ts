@@ -19,11 +19,19 @@ export function getCookie(key: string): string | null {
   return null;
 }
 
-export function setCookie(key: string, value: string): boolean | null {
+export function setCookie(key: string, value: string, time?: number): boolean | null {
   if (document === undefined || document === null) {
     return null;
   }
-  document.cookie = `${key}=${value || ""}; path=/`;
+  var now = new Date();
+  if (time !== undefined) {
+    now.setTime(now.getTime() + (time * 60 * 1000));
+    now.toUTCString();
+  }
+
+  document.cookie = time === undefined
+    ? `${key}=${value || ""}; path=/`
+    : `${key}=${value || ""}; expires=${now.toUTCString()}; path=/`;
   return true;
 }
 
